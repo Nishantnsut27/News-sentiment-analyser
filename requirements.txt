@@ -3,3 +3,5 @@ tensorflow-cpu
 beautifulsoup4
 requests
 matplotlib
+gunicorn
+whitenoise

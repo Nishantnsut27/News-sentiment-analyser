@@ -130,6 +130,8 @@ def store_feedback_view(request):
         if perceived_label is None:
             return JsonResponse({'status': 'Invalid label'})
 
+        feedback_entry = SentimentFeedback.objects.filter(headline=headline).last()
+
         if feedback_entry:
             feedback_entry.perceived_label = perceived_label
             feedback_entry.save()
