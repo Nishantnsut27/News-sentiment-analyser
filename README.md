@@ -3,7 +3,7 @@
 - Open command prompt and change directory to that folder.
   - Use the following command:
     ```bash
-    cd C:\Users\chara\Documents\Python  # replace directory with your directory
+    cd C:\Users\Nishant\Documents\Python  # replace directory with your directory
     ```
 - Create a virtual environment using the following command:
     ```bash
