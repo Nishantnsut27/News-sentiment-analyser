@@ -19,7 +19,7 @@
     ```
 - Run the following command to run the website:
     ```bash
-    python manage.py runserver
+    py -m uvicorn app.main:app --reload
     ```
 - Please note that the displayed data of performance and accuracy is not meaningful because we haven't tested on real examples more
 ![Project UI](Images/News_Sentiment_Analysis.png)

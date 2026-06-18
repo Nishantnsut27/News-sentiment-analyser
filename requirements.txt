@@ -1,7 +1,10 @@
-Django>=4.0
+fastapi
+uvicorn
+sqlmodel
+pydantic
+jinja2
+python-multipart
 tensorflow-cpu
 beautifulsoup4
 requests
 matplotlib
-gunicorn
-whitenoise
