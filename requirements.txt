@@ -4,7 +4,7 @@ sqlmodel
 pydantic
 jinja2
 python-multipart
-tensorflow-cpu
+tensorflow
 beautifulsoup4
 requests
 matplotlib
